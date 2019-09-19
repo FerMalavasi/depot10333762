@@ -4,7 +4,7 @@
     <title>Books Online Store</title>
     <%= csrf_meta_tags %>
 	
-    <%= csp_meta_tag %>
+    <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     
@@ -25,7 +25,7 @@
 				<li><a href="http://www..../contact">Contact</a></li>
 			</ul>
 		</div>
-		<div>
+		<div id="main">
 			<%= yield %>
 		</div>
 	</div>
